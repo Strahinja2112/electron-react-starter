@@ -1,20 +1,14 @@
-# NoteMark
+# Perfect template for modern development using Electron, Typescript, Tailwind and Vite!
 
-A minimal Note taking app with out-of-the-box markdown support.
+<!-- ![Preview](https://github.com/gionathas/NoteMark/assets/16454253/fcfff9dd-04a0-4b62-9cfb-db57ccd6f7aa) -->
 
-![Preview](https://github.com/gionathas/NoteMark/assets/16454253/fcfff9dd-04a0-4b62-9cfb-db57ccd6f7aa)
-
-## Project Setup
-
-### Install
+### Install and development
 
 ```bash
+# install command
 $ yarn
-```
 
-### Development
-
-```bash
+## development command
 $ yarn dev
 ```
 
