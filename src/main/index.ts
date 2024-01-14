@@ -12,7 +12,7 @@ function createWindow(): void {
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     center: true,
-    title: 'Electron Vite Typescript React Tailwind Template',
+    title: 'Electron Vite React Typescript Tailwind Template',
     frame: true,
     trafficLightPosition: { x: 15, y: 10 },
     webPreferences: {
