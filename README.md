@@ -2,7 +2,7 @@
 
 <!-- ![Preview](https://github.com/gionathas/NoteMark/assets/16454253/fcfff9dd-04a0-4b62-9cfb-db57ccd6f7aa) -->
 
-### Install and development
+## Install and development
 
 ```bash
 # install command
@@ -12,7 +12,7 @@ $ yarn
 $ yarn dev
 ```
 
-### Build
+## Build
 
 ```bash
 # For windows
