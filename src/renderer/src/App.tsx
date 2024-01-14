@@ -59,6 +59,31 @@ export default function App() {
           ))}
         </div>
       </div>
+      <div className="fixed bottom-0 pb-1 flex text-white/50 items-start justify-center gap-5">
+        <div className="flex items-center text-2xl">
+          <span className="text-[rgb(86,154,81)] underline font-bold">E</span>
+          <span>lectron</span>
+        </div>
+        <div className="flex items-center text-2xl">
+          <span className="text-[rgb(86,154,81)] underline font-bold">V</span>
+          <span>ite</span>
+        </div>
+        <div className="flex items-center text-2xl">
+          <span className="text-[rgb(86,154,81)] underline font-bold">R</span>
+          <span>eact</span>
+        </div>
+        <div className="flex items-center gap-1">
+          <div className="flex items-center text-2xl">
+            <span className="text-[rgb(86,154,81)] underline font-bold">T</span>
+            <span>ypescript</span>
+          </div>
+          <span>&</span>
+          <div className="flex items-center text-2xl">
+            <span className="text-[rgb(86,154,81)] underline font-bold">T</span>
+            <span>ailwind</span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

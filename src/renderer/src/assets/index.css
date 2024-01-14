@@ -6,6 +6,7 @@
 @layer base {
   #root {
     @apply h-full;
+    background-color: black !important;
   }
 
   * {
