@@ -1,15 +1,14 @@
 <h1 align="center" style="font-size: 35px; margin-block: 20px;">
-  <a href="https://portfolio-strahinja.vercel.app">EVRT2</a>
+  <a href="#">Electron, Vite, React, Tailwind and Typescript</a>
 </h1>
 <p align="center">
-  <a href="https://github.com/strahinja2112/portfolio"><strong>Explore the repo »</strong></a>
+  <a style="font-size: 25px;" href="https://github.com/Strahinja2112/electron-tailwind-vite-starter"><strong>Explore the repo »</strong></a>
   <br/>
-  <a href="https://portfolio-strahinja.vercel.app">View Demo</a>
+  <a href="https://github.com/Strahinja2112/electron-tailwind-vite-starter/issues">Report Bug</a>
   .
-  <a href="https://github.com/strahinja2112/portfolio/issues">Report Bug</a>
-  .
-  <a href="https://github.com/strahinja2112/portfolio/issues">Request Feature</a>
+  <a href="https://github.com/Strahinja2112/electron-tailwind-vite-starter/issues">Request Feature</a>
 </p>
+
 ## Overview
 
 Welcome to the **EVRT2(Electron, Vite, React, Tailwind, and TypeScript)**!
@@ -17,8 +16,6 @@ Welcome to the **EVRT2(Electron, Vite, React, Tailwind, and TypeScript)**!
 This tool simplifies the initial stages of your Electron desktop application projects by providing a convenient way to fetch boilerplate code directly to your computer.
 
 ## Features
-
-- **Electron-Centric Templates**: Choose from a variety of boilerplate templates specifically designed for Electron desktop application development.
 
 - **Seamless Setup**: Streamlined process to download and set up Electron boilerplate code, minimizing configuration hassles.
 
@@ -29,6 +26,18 @@ This tool simplifies the initial stages of your Electron desktop application pro
 3. Run the appropriate command to select and download the desired Electron boilerplate template.
 
 ```bash
-# Example command for Electron, Vite, React, Tailwind, and TypeScript template
-npm run download:electron-react-tailwind-typescript
+# Command
+yarn && yarn dev
+```
+
+### Or just use this simple command
+
+```bash
+# Command for all templates from which you can choose one that you need
+npx create-template
+# choose one of the given options, or example this one
+? evrt2 - Electron Vite React Typescript Tailwind
+? Project name: test-project
+
+✔ All done, your project is ready to be used.
 ```
