@@ -35,6 +35,8 @@ yarn && yarn dev
 ```bash
 # Command for all templates from which you can choose one that you need
 npx create-template
+# or
+npx create-electron-with-react
 # choose one of the given options, or example this one
 ? evrt2 - Electron Vite React Typescript Tailwind
 ? Project name: test-project
