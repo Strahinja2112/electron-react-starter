@@ -1,3 +1,4 @@
+import { WindowContextAPI } from '@shared/types'
 import { contextBridge } from 'electron'
 
 if (!process.contextIsolated) {
@@ -5,9 +6,11 @@ if (!process.contextIsolated) {
 }
 
 try {
-  contextBridge.exposeInMainWorld('context', {
+  const options: WindowContextAPI = {
     locale: navigator.language
-  })
+  }
+
+  contextBridge.exposeInMainWorld('context', options)
 } catch (error) {
   console.error(error)
 }

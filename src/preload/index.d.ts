@@ -3,9 +3,6 @@ import React from 'react'
 
 declare global {
   interface Window {
-    electron: ElectronAPI
-    context: {
-      locale: string
-    }
+    context: WindowContextAPI
   }
 }
